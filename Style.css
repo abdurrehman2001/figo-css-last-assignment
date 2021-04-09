@@ -62,12 +62,38 @@
     color: rgb(255, 215, 0);
 }
 .heading-box{
-    position: absolute;
-    left: 45%;
+    /* position: absolute;
+    left: 45%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
 }
 .heading-box > h4{
     color: rgb(210, 105, 30);
 }
 .heading-box > h2{
+    font-weight: bold;
+}
+.three-card{
+    margin: 0px auto;
+}
+.cards{
+    /* height: 70px; */
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+    border-radius:30px;
+    text-align: center;
+    /* margin-top: 15px; */
+    margin-left: 50px;
+    /* margin-right: 20px; */
+    background-color: rgba(220, 220, 220, 0.3);
+}
+.cards > img{
+    width: 20%;
+    align-items:center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.cards > h5{
+    font-family: 'cursive';
     font-weight: bold;
 }
