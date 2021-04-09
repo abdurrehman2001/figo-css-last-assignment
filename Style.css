@@ -97,3 +97,29 @@
     font-family: 'cursive';
     font-weight: bold;
 }
+.item-list > ul > li{
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.item-list > ul > li > a{
+    color: rgb(169, 169, 169);
+}
+.item-list > ul > li > a:hover{
+    color: #DAA520;
+    text-decoration: none;
+}
+.food-card{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+    border-radius:10px;
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.3);
+    /* margin-left: 10px; */
+    margin-left: 50px;
+}
+.food-card > img{
+    width: 80%;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
