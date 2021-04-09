@@ -2,6 +2,10 @@
     font-family:'Fjalla One';
     src: url("Fonts/FjallaOne-Regular.ttf");
 }
+@font-face{
+    font-family:'Saira Condensed';
+    src: url("Fonts/SairaCondensed-ExtraLight.ttf");
+}
 .pages{
     /* float: right; */
     position: absolute;
@@ -48,4 +52,12 @@
     border: none;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
+}
+.text > h3{
+    font-family:monospace;
+    font-weight: bold ;
+    font-size: 35px;
+}
+.text > h4{
+    color: rgb(255, 215, 0);
 }
