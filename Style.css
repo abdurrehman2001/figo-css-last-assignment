@@ -7,7 +7,6 @@
     src: url("Fonts/SairaCondensed-ExtraLight.ttf");
 }
 .pages{
-    /* float: right; */
     position: absolute;
     top: 7%;
     right: 10%;
@@ -31,12 +30,10 @@
     font-family: 'Fjalla One';
     font-size: 50px;
     word-spacing: 10px;
-    /* text-transform: capitalize; */
     font-weight: bold;
 }
 .text > p{
     font-family:sans-serif;
-    /* font-weight: bold; */
 }
 .text > input{
     padding: 5px;
@@ -64,11 +61,12 @@
 .text > h5{
     color: #DAA520;
 }
+.cov-images > img{
+    width: 100%;
+}
 .heading-box{
-    /* position: absolute;
-    left: 45%; */
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
 }
 .heading-box > h4{
@@ -81,13 +79,10 @@
     margin: 0px auto;
 }
 .cards{
-    /* height: 70px; */
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
     border-radius:30px;
     text-align: center;
-    /* margin-top: 15px; */
     margin-left: 50px;
-    /* margin-right: 20px; */
     background-color: rgba(220, 220, 220, 0.3);
 }
 .cards > img{
@@ -117,7 +112,6 @@
     border-radius:10px;
     text-align: center;
     background-color: rgba(220, 220, 220, 0.3);
-    /* margin-left: 10px; */
     margin-left: 50px;
 }
 .food-card > img{
@@ -127,14 +121,10 @@
     margin-bottom: 25px;
 }
 .burger > img{
-    height: 500px;
+    height: auto;
     margin-top: 50px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
-/* .news-card{
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,1);
-    margin-left: 50px;
-} */
 .news-card > h6{
     color: yellowgreen;
 }
@@ -164,8 +154,6 @@
     margin-right: auto;
     position: relative;
     background-color: rgb(245, 245, 245);
-    /* margin: auto; */
-    /* justify-content: center; */
 }
 .s-box{
     padding: 10px;
@@ -173,6 +161,21 @@
     background-color: springgreen;
     color: white;
     position: absolute;
-    left: 65%;
+    left: 64%;
     margin-top: -44px;
+}
+.footer{
+    background-color: rgba(220, 220, 220, 0.2);
+    height: auto;
+    margin-top: 50px;
+}
+.contact > ul > li{
+    list-style-type: none;
+}
+.contact > ul > li > a{
+    color: rgb(47, 79, 79);
+}
+.contact > ul > li > a:hover{
+    color: PaleGoldenrod;
+    text-decoration: none;
 }
