@@ -61,6 +61,9 @@
 .text > h4{
     color: rgb(255, 215, 0);
 }
+.text > h5{
+    color: #DAA520;
+}
 .heading-box{
     /* position: absolute;
     left: 45%; */
@@ -122,4 +125,8 @@
     border-radius: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+.burger > img{
+    height: 500px;
+    margin-top: 50px;
 }
