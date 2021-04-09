@@ -61,3 +61,13 @@
 .text > h4{
     color: rgb(255, 215, 0);
 }
+.heading-box{
+    position: absolute;
+    left: 45%;
+}
+.heading-box > h4{
+    color: rgb(210, 105, 30);
+}
+.heading-box > h2{
+    font-weight: bold;
+}
